@@ -1,0 +1,46 @@
+main {
+	display: flex;
+	flex-direction: column;
+	width: 1440px;
+}
+
+.main__news-section {
+	width: 1440px;
+	min-height: 282px;
+}
+
+.main__author-card {
+	width: 1440px;
+	height: 624px;
+	display: flex;
+}
+
+.main__author-img {
+	width: 464px;
+	height: 464px;
+	border-radius: 250px;
+	margin: 80px 0 80px 104px;
+}
+
+.main__author-info-ctn {
+	width: 600px;
+	max-width: 600px;
+	margin: 131px 0 0 56px;
+}
+
+.main__author-title {
+	font-family: "roboto-slab-400-regular";
+	font-family: 400;
+	font-size: 40px;
+	line-height: 46px;
+	letter-spacing: 0px;
+}
+
+.main__author-desc {
+	font-family: "roboto-slab-400-regular";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0px;
+	margin: 24px 0 0 0;
+}

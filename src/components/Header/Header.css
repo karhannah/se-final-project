@@ -64,6 +64,7 @@ header::before {
 }
 
 .header__search-input {
+	width: 500px;
 	background: none;
 	border: none;
 	outline: none;

@@ -3,9 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import './App.css'
 
-import Preloader from "../Preloader/Preloader";
 import Navigation from "../Navigation/Navigation";
-import Header from "../Header/Header"
+import Header from "../Header/Header";
+import Main from "../Main/Main";
+import Footer from "../Footer/Footer";
 
 function App() {
 	
@@ -19,12 +20,12 @@ function App() {
 
 					<BrowserRouter>
 						<Routes>
-							<Route path = "/" element = { <p></p> } />
+							<Route path = "/" element = { <Main /> } />
 							<Route path = "/saved-news" element = {<p></p>} />
 						</Routes>
 					</BrowserRouter>
 
-					<Preloader />
+					<Footer />
 				</div>
 			</div>
 		</>

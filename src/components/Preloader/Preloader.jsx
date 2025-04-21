@@ -5,7 +5,7 @@ function Preloader() {
 		<>
 			<div className = "preloader">
 				<div className = "circle-preloader"></div>
-				<h3>Searching for news...</h3>
+				<h3 className = "preloader__subtitle">Searching for news...</h3>
 			</div>
 		</>
 	)
