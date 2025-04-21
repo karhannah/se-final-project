@@ -1,0 +1,47 @@
+@font-face {
+	font-family: "inter-400-regular";
+	src: url("inter-400-regular.woff") format("woff"),
+		 url("inter-400-regular.woff2") format("woff2")
+}
+
+@font-face {
+	font-family: "inter-500";
+	src: url("inter-500.woff") format("woff"),
+		 url("inter-500.woff2") format("woff2")
+}
+
+@font-face {
+	font-family: "roboto-400-regular";
+	src: url("roboto-400-regular.woff") format("woff"),
+		 url("roboto-400-regular.woff2") format("woff2")
+}
+
+@font-face {
+	font-family: "roboto-500";
+	src: url("roboto-500.woff") format("woff"),
+		 url("roboto-500.woff2") format("woff2")
+}
+
+@font-face {
+	font-family: "roboto-700";
+	src: url("roboto-700.woff") format("woff"),
+		 url("roboto-700.woff2") format("woff2")
+}
+
+@font-face {
+	font-family: "roboto-900";
+	src: url("roboto-900.woff") format("woff"),
+		 url("roboto-900.woff2") format("woff2")
+}
+
+@font-face {
+	font-family: "roboto-slab-400-regular";
+	src: url("roboto-slab-400-regular.woff") format("woff"),
+		 url("roboto-slab-400-regular") format("woff2")
+}
+
+@font-face {
+	font-family: "roboto-slab-700";
+	src: url("roboto-slab-700.woff") format("woff"),
+		 url("roboto-slab-700.woff2") format("woff2")
+}
